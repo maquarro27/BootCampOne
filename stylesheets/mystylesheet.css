@@ -69,9 +69,11 @@ aside
  }
  section#pinky{
  	text-align: center;
+ 	padding: 25px;
  }
 aside#noside{
 	float: center;
+
 }
 h2
 {
@@ -85,11 +87,43 @@ h2
 section#sidebar
 {
 	float: right;
+	font-size: 20px;
 }
 p, ol, ul
 {
 	margin-left: 50px;
+	margin-right: 50px;
 	font-family: ariel, "mstrebuchet", sans-serif;
 	font-size: 20px;
-	line-height: 25px;
+	line-height: 30px;
+}
+
+ol{
+	list-style: decimal;
+	color: blue;
+}
+ul{
+	list-style: square;
+	color: red;
+}
+.center{
+	text-align: center;
+	padding: 50px;
+}
+a:hover{
+	color: red;
+	background-color: white;
+}
+a:active{
+	color: purple;
+}
+p:hover{
+	color: blue;
+}
+a:visited{
+	color: purple;
+}
+aside#google{
+	font-size: 20px;
+	text-align: center;
 }
