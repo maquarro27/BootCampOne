@@ -50,6 +50,7 @@ table {
 body
 {
 	background-image:url("../images/body-background.png");
+
 }
 aside
 {
@@ -71,9 +72,12 @@ aside
  	text-align: center;
  	padding: 25px;
  }
+ section#calvin{
+ 	text-align: center;
+ 	padding: 50px;
+ }
 aside#noside{
 	float: center;
-
 }
 h2
 {
@@ -102,9 +106,10 @@ ol{
 	list-style: decimal;
 	color: blue;
 }
-ul{
-	list-style: square;
+ul#spoons{
+	list-style: disc;
 	color: red;
+	padding: 25px;
 }
 .center{
 	text-align: center;
@@ -125,5 +130,71 @@ a:visited{
 }
 aside#google{
 	font-size: 20px;
+	text-align: left;
+}
+div{
+	position: absolute;
+	left: 100px;
+	right: 100px;
+}
+table#best{
+	position: relative;
+	bottom: 20px;
+	font-size: 25px;
+	border: 3px solid black;
+	width: 100%;
+	height: 100px;
 	text-align: center;
+}
+
+table#first{
+position:relative;
+	bottom: 40px;
+	font-size: 40px;
+	border: 3px solid black;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+p:first-child{background-color: red;}  
+p:nth-child(2){font-family:"Times New Roman", Times, serif;}
+p:nth-child(3){font-family: "Comic Sans MS", cursive, sans-serif}
+p:nth-child(4){background-color: blue;}
+p:first-of-type{color: black;}
+p:nth-child(2){border-width: 10px; border-style: groove; border-color: red;}
+
+.firstrow:nth-of-type(odd){
+	color:blue;
+}
+.firstrow:nth-of-type(even){
+	background-color: yellow;
+}
+thead{
+	background-color: white;
+}
+td{padding: 10px;}
+th, td {
+	border: 3px solid black;
+}
+.bestrow{
+	border: 3px solid black;
+}
+.bestrow:first-child {
+	color: blue;
+}
+.bestcol:nth-child(3){
+	color: red;
+	background-color:yellow;
+}
+.bestcol:nth-child(4){
+	color: green;
+	background-color: orange;
+}
+.bestcol:first-of-type{
+	background-color: white;
+}
+.bestcol:last-of-type{
+	background-color: blue;
+	color: white;
 }
