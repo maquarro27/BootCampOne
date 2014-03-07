@@ -1,0 +1,38 @@
+div#ourcolumns{
+	-webkit-column-count:4; /* Safari and Chrome */
+	-moz-column-count:4; /* FireFox */
+	column-count:4; /* Everyone Else */
+	-webkit-column-gap:30px;
+	-moz-column-gap:30px;
+	column-gap:30px;
+	-webkit-column-rule:3px outset #ff00ff;
+	-moz-column-rule:3px outset #ff00ff;
+	column-rule:3px outset #ff00ff;
+	width: 100%;
+
+	letter-spacing: 2px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 15px;
+	color:blue;
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #eeeeee 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #eeeeee 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #eeeeee 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    background-image: url('../images/Cardinal.jpg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border: 5px dotted purple;
+    padding: 25px;
+    background-position:  left top;
+    text-indent: 75px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    border-left-color: red;
+    border-right-color: green;
+    border-bottom-color: #ff00ff;
+    background-color: #FFEFBF
+}
