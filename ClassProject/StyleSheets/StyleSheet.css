@@ -1,0 +1,143 @@
+/*Animation Key Frames */
+@keyframes colorchange{
+0%   {color:red; font-size: 1px;} 
+25%  {color:yellow; font-size:15px;}
+50%  {color:green; font-size: 30px;}
+75%  {color: blue; font-size: 45px;}
+100% {color:black; font-size: 60px;}
+}
+
+@-webkit-keyframes colorchange{
+0%   {color:red; font-size: 1px;} 
+10%  {color:red; font-size: 7px;}
+25%  {color:yellow; font-size:15px;}
+35%  {color:yellow; font-size:22px;}
+50%  {color:green; font-size: 30px;}  
+65%	 {color:green; font-size: 38px;}
+75%  {color: blue; font-size: 45px;}
+85%  {color: blue; font-size: 50px;}
+95%  {color:black; font-size: 55px;}
+100% {color:black; font-size: 60px;}
+}
+
+
+body{
+	background-color: #ddc7c7;
+	margin: 0 auto;
+	width: 1200px;
+}
+ 	
+header h1{
+	font-size: 60px;
+	position: relative;
+	left: 435px;
+	display: block;
+	animation: colorchange 5s;
+	-webkit-animation: colorchange 5s; 	
+}
+aside{
+	float: left;
+	background-color: #31aa9a;
+	width: 280px;
+	height: 780px;
+	margin-left: 10px
+
+}
+div{
+	float:right;
+	background-color: #31aa9a;
+	width: 900px;
+	height: 780px;
+	margin-right: 10px;
+
+}
+#section1{
+	background-color: #e2d3d3;
+	background-image: url("../Images/OrionNebula.jpg");
+	background-size: 800px 400px;
+	width: 860px;
+	height: 400px;
+	margin: 20px;
+}
+#section2{
+	background-color: #31aa9a;
+	width: 860px;
+	height: 200px;
+	margin: 0 auto;
+}
+#section3{
+	background-color: red;
+	background-image: url("../Images/JohnSmart2.jpg");
+	background-size: 276px 225px;
+	width: 229px;
+	height: 225px;
+	margin: 27px 27px 27px 27px;
+}
+#footer1{
+	background-color: #e2d3d3;
+	font-size: 30px;
+	color: green;
+	width: 860px;
+	height: 100px;
+	margin: 20px; 
+}
+#article1{
+	background-color: #e2d3d3;
+	font-size: 25px;
+	width: 270px;
+	height: 180px;
+	margin: 10px;
+	position: absolute;
+	left: 387px
+
+}
+#article2{
+	background-color: #e2d3d3;
+	font-size: 25px;
+	color: blue;
+	width: 270px;
+	height: 180px;
+	margin: 10px;
+	position: absolute;
+	left: 671px;
+
+}
+#article3{
+	background-color: #e2d3d3;
+	font-size: 25px;
+	color:red;
+	width: 270px;
+	height: 180px;
+	margin: 10px;
+	position: absolute;
+	left: 955px;
+
+}
+#article4{
+	background-color: #e2d3d3;
+	width: 225px;
+	height: 85px;
+	margin: 27px;
+
+}
+#article5{
+	background-color: blue;
+	background-image: url("../Images/facebook.jpg");
+	background-size: 229px 43px;
+	width: 229px;
+	height: 43px;
+	margin: 27px;
+}
+
+#article6{
+	background-color: black;
+	background-image: url("../Images/Yahoo.jpg");
+	background-size: 225px 39px;
+	width: 229px;
+	height: 43px;
+	margin: 27px;
+}
+img{
+	width: 195px;
+	height: 225px;
+}

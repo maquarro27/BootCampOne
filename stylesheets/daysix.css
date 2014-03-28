@@ -1,7 +1,7 @@
 div#ourcolumns{
-	-webkit-column-count:4; /* Safari and Chrome */
-	-moz-column-count:4; /* FireFox */
-	column-count:4; /* Everyone Else */
+	-webkit-column-count:5; /* Safari and Chrome */
+	-moz-column-count:5; /* FireFox */
+	column-count:5; /* Everyone Else */
 	-webkit-column-gap:30px;
 	-moz-column-gap:30px;
 	column-gap:30px;
@@ -27,7 +27,7 @@ div#ourcolumns{
     background-origin: content-box;
     border: 5px dotted purple;
     padding: 25px;
-    background-position:  left top;
+    background-position:  center;
     text-indent: 75px;
     text-decoration: underline;
     text-transform: capitalize;
@@ -35,4 +35,5 @@ div#ourcolumns{
     border-right-color: green;
     border-bottom-color: #ff00ff;
     background-color: #FFEFBF
+
 }
